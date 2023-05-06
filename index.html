@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pdf2Word Converter!!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <style>
+            body{
+        background: rgb(7,77,78);
+        background: linear-gradient(0deg, rgba(7,77,78,1) 1%, rgba(0,0,0,0.9220063025210083) 58%);
+        font-family: 'Quicksand', sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+
+.footer{
+    display: flex;
+    background-color: transparent;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    font-size: small;
+    flex-direction: column;
+    text-align: center;
+}
+
+    .content{
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.header{
+    display: flex;
+    background-color: transparent;
+    padding-left: 50px;
+    justify-content: start;
+    align-items: center;
+    color: white;
+}
+
+.box_item_text_1{
+    font-weight: bolder;
+    font-size: 300%;
+    margin-block-end: 0;
+    padding: 0 20px;
+    color: rgb(240, 231, 231);
+}
+.box_item_text{
+    font-size: 150%;
+    margin-block-start: 0;
+    padding: 0 50px;
+    color: rgb(194, 185, 185);
+}
+.button1{
+    padding-top: 40px;
+    
+}
+
+.heading{
+    padding-left: 8px;
+}
+.bi{
+    font-size: 2.5em;
+}
+.btn1{
+    background-color: #00000054;
+    border-radius: 15px;
+    padding: 20px 80px;
+    color: white;
+    cursor: pointer;
+    font-size: x-large;
+    transition: .3s;
+}
+
+.btn1:hover{
+    background-color: #00000071;
+    border-radius: 15px;
+    padding: 23px 90px;
+    color: white;
+    cursor: pointer;
+    font-size: x-large;
+    transition: .3s;
+}
+
+
+.btn2{
+    background-color: #0066ff5b;
+    border-radius: 10px;
+    padding: 10px 40px;
+    color: white;
+    cursor: pointer;
+    font-size: x-large;
+    transition: .3s;
+
+}
+
+.btn2:hover{
+    background-color: #0066ff79;
+    border-radius: 10px;
+    padding: 12px 45px;
+    color: white;
+    cursor: pointer;
+    font-size: x-large;
+    transition: .3s;
+}
+
+.button2{
+    
+    margin-top: 50px;
+    
+}
+.line2{
+   margin-bottom: -8px;
+   color: rgb(206, 206, 199);
+}
+.line1{
+    color: rgb(206, 206, 199);
+}
+
+
+
+@media screen and (max-width: 360px) {
+    
+    body{
+        background: rgb(7,77,78);
+        background: linear-gradient(0deg, rgba(7,77,78,1) 1%, rgba(0,0,0,0.9220063025210083) 58%);
+        font-family: 'Quicksand', sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+
+.footer{
+    display: flex;
+    background-color: transparent;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    font-size: xx-small;
+}
+
+    .content{
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+    .box_item_text_1{
+    font-weight: bolder;
+    font-size: 300%;
+    margin-block-end: 0;
+    padding: 0 20px;
+    color: rgb(228, 220, 220);
+}
+
+.box_item_text{
+    font-size: 150%;
+    margin-block-start: 0;
+    padding: 0 50px;
+    color: rgb(179, 168, 168);
+}
+.btn1{
+    background-color: #00000081;
+    border-radius: 10px;
+    padding: 20px 70px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: x-large;
+    transition: .3s;
+    box-shadow: 0px 0px 0px rgb(0, 0, 0);
+}
+.btn1:hover{
+    background-color: #111010;
+    border-radius: 10px;
+    padding: 20px 70px;
+    color: white;
+    cursor: pointer;
+    font-size: x-large;
+    transition: .3s;
+    box-shadow: 0px 0px 0px rgb(0, 0, 0);
+}
+.button1{
+    align-items: center;
+    position: relative;
+}
+
+.bi{
+    font-size: 2em;
+}
+.header{
+    display: flex;
+    background-color: transparent;
+    padding-left: 15px;
+    justify-content: start;
+    align-items: center;
+    color: rgb(228, 220, 220);
+}
+.heading{
+    padding-left: 8px;
+}
+.btn2{
+    background-color: #0066ff5b;
+    border-radius: 10px;
+    padding: 8px 40px;
+    color: white;
+    cursor: pointer;
+    font-size: x-large;
+    transition: .3s;
+    box-shadow: 0px 0px 0px rgb(0, 0, 0);
+
+}
+
+.btn2:hover{
+    background-color: #0066ff5b;
+    border-radius: 10px;
+    padding: 8px 40px;
+    color: white;
+    cursor: pointer;
+    font-size: x-large;
+    transition: .3s;
+    box-shadow: 0px 0px 0px rgb(0, 0, 0);
+}
+
+}
+
+    </style>
+
+</head>
+
+<body>
+  <form action="/docxtopdf" method="post" enctype="multipart/form-data" id="form">
+    <div class="header">
+        <i class="bi bi-file-earmark-pdf-fill"></i>
+        <h3 id="img1" class="heading">Pdf2Word Converter</h3>
+        <hr class="line1" width="90%">
+    </div>
+
+    
+
+    <div class="content" >
+        <div class="box" >
+            
+                <h1 class="box_item_text_1" >Pdf2Word Converter</h1>
+                <p class="box_item_text">Convert your PDF to WORD documents with incredible accuracy.<p>
+                <div class="button1" >
+                    <input type="file" required id="pdfForm" name="file" style="display:none;"/>
+                    <label for="pdfForm" class="btn1">Upload Pdf file</label>
+                </div>
+                <div class="button2">
+                    <input type="submit" value="Download file" id="dbtn" style="display:none;">
+                    <label for="dbtn" class="btn2">Download file</label>
+                </div>
+        </div>
+    </div>
+
+    
+    
+    <div class="footer">
+        <hr class="line2" width="5%">
+        <h5 class="footer_text">Made with ❤️ by Divyansh Tyagi</h5>
+    </div>  
+</form>
+
+  <script src="index.js"></script>
+
+</body>
+</html>

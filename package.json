@@ -1,0 +1,14 @@
+{
+  "name": "pdf2word",
+  "version": "1.0.0",
+  "description": "pdf to word converter",
+  "main": "index.js",
+  "scripts": {},
+  "author": "divyansh",
+  "license": "ISC",
+  "dependencies": {
+    "docx-pdf": "^0.0.1",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
